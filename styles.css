@@ -2,6 +2,8 @@ body {
 	width: 9in ;
 	height: 11.5in;
 	margin: auto ;
+	background-color: white;
+	color: rgb(104, 55, 20);
 }
 
 .page_outer {
