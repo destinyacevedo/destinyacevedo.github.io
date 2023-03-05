@@ -4,6 +4,7 @@ body {
 	width: 9in ;
 	height: 11.5in;
 	margin: auto ;
+	font-size: 16pt;
     background-color: burlywood;
     color: saddlebrown
 }
@@ -32,3 +33,8 @@ span {
 }
 
 ul  { margin-top: -1em; }  
+
+.dark-mode {
+	background-color: black;
+	color: sienna;
+}
