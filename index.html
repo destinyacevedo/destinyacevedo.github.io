@@ -7,9 +7,23 @@
   <title>
     Destiny Acevedo
   </title>
+  <style>
+    button {
+      /* visibility: hidden; */
+    }
+  </style>
 
-  <link rel="stylesheet" href="./Webpage style.css"/> <!-- where all my stylistic stuff is currently stored -->
- </head>
+  <link rel="stylesheet" href="./webpage style.css"/> <!-- where all my stylistic stuff is currently stored -->
+
+</head>
+
+<script>
+  function toggler() {
+    document.body.classList.toggle("dark-mode");	   
+  }
+</script>
+
+<button onclick="toggler()"style="position:absolute; top:0; left:0;">Toggle dark mode</button>
 
  <body>
     <!-- Maybe I will change this header but right now it seems realistic -->
@@ -17,6 +31,7 @@
     <h1>
       <strong>
       Destiny Acevedo
+      <!-- <img src="Need to figure out how to put my picture on here"> -->
       </strong>
   </h1>
     <!-- MAYBE i can figure out how to put little images like hyperlinks as seen on CD webpage -->
@@ -44,4 +59,4 @@
   </p>
 
  </body>
- </html>
+</html>
