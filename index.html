@@ -11,6 +11,9 @@
     button {
       /* visibility: hidden; */
     }
+    /* draw {
+  
+    } */
   </style>
 
   <link rel="stylesheet" href="./webpage style.css"/> <!-- where all my stylistic stuff is currently stored -->
@@ -21,10 +24,16 @@
   function toggler() {
     document.body.classList.toggle("dark-mode");	   
   }
+  function  draw(){
+    const plot = document.getElementById("canvas");
+    const ctx = plot.getContext("2d");
+    ctx.fillStyle = "green"
+    ctx.fillRect(0,0,50,50);
+  }
 </script>
 
 <button onclick="toggler()"style="position:absolute; top:0; left:0;">Toggle dark mode</button>
-
+<button onclick="this.innerText=Date()"style="position:absolute; top:0; left: 250px;">The time is?</button>
  <body>
     <!-- Maybe I will change this header but right now it seems realistic -->
     <span>
